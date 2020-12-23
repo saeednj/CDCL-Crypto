@@ -2,7 +2,7 @@ MROOT := $(shell pwd)
 export MROOT
 
 minisat:
-	make -C core rs
+	make -C simp rs
 
 clean:
-	make -C core clean
+	make -C simp clean
